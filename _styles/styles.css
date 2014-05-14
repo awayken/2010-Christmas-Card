@@ -1,0 +1,320 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before {
+  content: '';
+  content: none;
+}
+blockquote:after {
+  content: '';
+  content: none;
+}
+q:before {
+  content: '';
+  content: none;
+}
+q:after {
+  content: '';
+  content: none;
+}
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  color: #000000;
+  background: url('../_images/body.png') repeat left top #7bdcd2;
+  font-family: arial;
+  font-size: 1em;
+}
+a {
+  color: #ab102e;
+  text-decoration: underline;
+}
+a:link {
+  color: #ab102e;
+  text-decoration: underline;
+}
+a:visited {
+  color: #ab102e;
+  text-decoration: underline;
+}
+a:hover {
+  color: #ab102e;
+  text-decoration: none;
+}
+a:active {
+  color: #ab102e;
+  text-decoration: none;
+}
+h1 {
+  font-family: Arial;
+  font-size: 3em;
+  padding-bottom: 0.25em;
+}
+h2 {
+  font-family: Arial;
+  font-size: 2.6em;
+  padding-bottom: 0.25em;
+}
+h3 {
+  font-family: Arial;
+  font-size: 2em;
+  padding-bottom: 0.25em;
+}
+h4 {
+  font-family: Arial;
+  font-size: 1.8em;
+  padding-bottom: 0.25em;
+}
+h5 {
+  font-family: Arial;
+  font-size: 1.6em;
+  padding-bottom: 0.25em;
+}
+h6 {
+  font-family: Arial;
+  font-size: 1.2em;
+  padding-bottom: 0.25em;
+}
+p { padding-bottom: 1em; }
+fieldset {
+  display: block;
+  padding-bottom: 0.5em;
+}
+.button {
+  display: inline-block;
+  color: #ffffff;
+  background: #100873;
+  height: 22px;
+  line-height: 22px;
+  padding: 1px 2px 1px 8px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.button a {
+  display: inline-block;
+  color: #ffffff;
+  background: #7972d8;
+  border: none;
+  height: 22px;
+  line-height: 22px;
+  font-size: 11px;
+  padding: 0 4px;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial;
+}
+.button input {
+  display: inline-block;
+  color: #ffffff;
+  background: #7972d8;
+  border: none;
+  height: 22px;
+  line-height: 22px;
+  font-size: 11px;
+  padding: 0 4px;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial;
+}
+.button button {
+  display: inline-block;
+  color: #ffffff;
+  background: #7972d8;
+  border: none;
+  height: 22px;
+  line-height: 22px;
+  font-size: 11px;
+  padding: 0 4px;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial;
+}
+#header {
+  text-align: center;
+  line-height: 0.7;
+  padding-top: 0.5em;
+}
+#header h1 {
+  height: 76px;
+  width: 796px;
+  margin: 0 auto;
+  padding: 0;
+}
+#header h1 a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-indent: -9999px;
+  text-decoration: none;
+  background: url('../_images/h1.png') no-repeat center top transparent;
+}
+#main {
+  color: black;
+  width: 800px;
+  margin: 0 auto 80px auto;
+  background: url('../_images/table.png') repeat left top #e2b28c;
+}
+#main > div {
+  border: 12px solid #ffffff;
+  padding: 8px;
+}
+#main #game {
+  border: 0;
+  padding: 0;
+}
+#game {
+  position: relative;
+  color: #ffffff;
+  background: url('../_images/wood.png') repeat-y center top #7c4619;
+}
+#game h2 {
+  color: #ffffff;
+  background: url('../_images/h2.png') no-repeat left top;
+  width: 266px;
+  height: 127px;
+  text-indent: -9999px;
+  float: left;
+}
+#game .instructions {
+  font-size: 0.9em;
+  font-style: italic;
+  float: right;
+  width: 500px;
+  height: 100px;
+  padding: 30px 14px 0px 0px;
+}
+#game .dragdrop {
+  background: url('../_images/dragdrop.png') no-repeat left top;
+  width: 187px;
+  height: 117px;
+  text-indent: -9999px;
+  position: absolute;
+  z-index: 10;
+  top: 200px;
+  left: 326px;
+}
+#game .finished {
+  background: url('../_images/finished.png') no-repeat left top;
+  width: 171px;
+  height: 83px;
+  text-indent: -9999px;
+  position: absolute;
+  z-index: 10;
+  top: 570px;
+  left: 334px;
+}
+#game .drawer {
+  float: right;
+  width: 266px;
+  height: 538px;
+  margin-top: 10px;
+  background: url('../_images/drawer.png') no-repeat right top;
+  padding: 18px 0px 18px 50px;
+}
+#game .drawer h3 { display: none; }
+#game .drawer h4 { display: none; }
+#game .controls {
+  clear: both;
+  height: 46px;
+  width: 550px;
+  line-height: 28px;
+  text-align: center;
+  padding: 16px 0px;
+  margin: 0 auto;
+  line-height: 46px;
+  font-weight: bold;
+}
+#ian {
+  position: relative;
+  float: left;
+  width: 300px;
+  height: 548px;
+  margin-top: 10px;
+  text-align: center;
+  border: 12px solid #ffffff;
+  background: url('../_images/table.png') repeat left top #e2b28c;
+  z-index: 10;
+}
+#ian-head {
+  position: relative;
+  z-index: 10;
+  margin: 125px 0 -24px 0;
+}
+#game-shirts {
+  margin: 10px auto 26px auto;
+  padding-bottom: 26px;
+  border-bottom: 1px solid #633a1d;
+}
+#game-shirts li {
+  display: inline-block;
+  width: 75px;
+  margin: 0 4px 4px 0;
+}
+#game-shirts li img {
+  display: block;
+  width: 75px;
+}
+#game-pants {
+  margin: 10px auto 26px auto;
+  padding-bottom: 26px;
+  border-bottom: 1px solid #633a1d;
+}
+#game-pants li {
+  display: inline-block;
+  width: 75px;
+  margin: 0 4px 4px 0;
+}
+#game-pants li img {
+  display: block;
+  width: 75px;
+}
+#game-feet {
+  margin: 10px auto 26px auto;
+  padding-bottom: 26px;
+}
+#game-feet li {
+  display: inline-block;
+  width: 75px;
+  margin: 0 4px 4px 0;
+}
+#game-feet li img {
+  display: block;
+  width: 75px;
+}
+#game-submit-email {
+  width: 200px;
+  border: 1px solid silver;
+}
+#game-submit-ok {
+  border: none;
+  background: none;
+  display: block;
+  float: right;
+}
+#game-submit-clear {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0px 4px 4px 0px;
+}
+.ui-draggable { z-index: 99; }
+.js #game-shirts li { cursor: move; }
+.js #game-pants li { cursor: move; }
+.js #game-feet li { cursor: move; }
